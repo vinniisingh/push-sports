@@ -166,7 +166,7 @@ li {
 /*Infra Services*/
 
 main{
-    background-image: url(/Assignment/img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-color: black;
     color: white;
 }
@@ -389,3 +389,8 @@ main{
   #backToTopBtn:hover {
     background-color: #911720;
   }
+
+  .copyright {
+    padding-bottom: 20px;
+    color: #fff;
+}
