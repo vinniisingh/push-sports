@@ -1,0 +1,391 @@
+
+h1{
+    font-weight: bold;
+}
+
+/*Navbar*/
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+}
+.navbar-scrolled{
+    background-color: rgba(25, 28, 31, 0.8) !important;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+   padding: 15px 0;
+}
+
+.navbar a, .navbar a:focus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px 15px;
+    color: black;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+li {
+    display: list-item;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.navbar li{
+    position: relative;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar-toggler{
+    color: black;
+    border-color: black;
+}
+
+.navbar-toggler-icon{
+    background-color: black;
+}
+
+.nav-link{
+    font-size: 18px !important;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Adjust the value as needed */
+}
+
+.navbar-scrolled{
+    background-color: white !important;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+   padding: 15px 0;
+}
+
+/*section*/
+#hero{
+    margin-top: 80px;
+}
+
+.btn-danger {
+    background: -webkit-gradient(linear, left top, right top, from(#dc292c), to(#911720));
+    background: -o-linear-gradient(left, #dc292c, #911720);
+    background: linear-gradient(to right, #dc292c, #911720); /* Define gradient */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+}
+#hero .intro{
+    background-color: black;
+    padding: 40px 0 40px 0;
+    color: red;
+}
+
+#hero .intro h1 {
+    font-size: 55px; /* Adjust font size as needed */
+    background: -webkit-gradient(linear, left top, right top, from(#911720), to(#dc292c));
+    background: -o-linear-gradient(left, #911720, #dc292c);
+    background: linear-gradient(to right, #911720, #dc292c); /* Define gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Hide original text color */
+    font-weight: bold;
+}
+
+.overlay img{
+    width: 100%;
+}
+
+#hero .container{
+    padding: 30px 0;
+}
+
+.logo {
+    overflow: hidden; /* Hide overflow content */
+}
+
+.scrolling-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-animation: scrollAnimation 20s linear infinite; 
+            animation: scrollAnimation 20s linear infinite; /* Apply animation for scrolling */
+}
+
+@-webkit-keyframes scrollAnimation {
+    from {
+        -webkit-transform: translateX(0);
+                transform: translateX(0); 
+    }
+    to {
+        -webkit-transform: translateX(calc(-100% - 10px));
+                transform: translateX(calc(-100% - 10px)); 
+    }
+}
+
+@keyframes scrollAnimation {
+    from {
+        -webkit-transform: translateX(0);
+                transform: translateX(0); 
+    }
+    to {
+        -webkit-transform: translateX(calc(-100% - 10px));
+                transform: translateX(calc(-100% - 10px)); 
+    }
+}
+
+.loop{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+/*Infra Services*/
+
+main{
+    background-image: url(/Assignment/img/background.jpg);
+    background-color: black;
+    color: white;
+}
+#main .image img{
+    border-radius: 10px;
+}
+.image{
+    border-radius: 10px;
+}
+#main .content h1{
+    font-weight: bolder;
+}
+
+#main .content h1 span{
+    font-size: 55px; /* Adjust font size as needed */
+    background: -webkit-gradient(linear, left top, right top, from(#911720), to(#dc292c));
+    background: -o-linear-gradient(left, #911720, #dc292c);
+    background: linear-gradient(to right, #911720, #dc292c); /* Define gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Hide original text color */
+    font-weight: bold;
+}
+
+#main .contnet p{
+    font-size: 20px;
+}
+
+#infraservices .container{
+    padding-top: 120px;
+}
+
+#infraservices button{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+#infraservices .h4{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#infraservices h4{
+    margin-bottom: 0;
+}
+
+#push{
+    margin-top: 120px;
+}
+
+#push h4{
+    margin-bottom: 0;
+}
+#push h1{
+    font-size: 55px; /* Adjust font size as needed */
+    background: -webkit-gradient(linear, left top, right top, from(#911720), to(#dc292c));
+    background: -o-linear-gradient(left, #911720, #dc292c);
+    background: linear-gradient(to right, #911720, #dc292c); /* Define gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Hide original text color */
+    font-weight: bold;
+}
+
+#push .row{
+    margin-top: 40px;
+}
+
+#gallery{
+    margin-top: 40px;
+}
+
+#gallery h1{
+    font-size: 55px;
+}
+
+
+
+
+/*personalize*/
+
+#personalize{
+    margin-top: 100px;
+}
+
+
+#personalize h1{
+    text-align: center;
+    font-size: 55px; /* Adjust font size as needed */
+    background: -webkit-gradient(linear, left top, right top, from(#911720), to(#dc292c));
+    background: -o-linear-gradient(left, #911720, #dc292c);
+    background: linear-gradient(to right, #911720, #dc292c); /* Define gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Hide original text color */
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#personalize .card{
+    background-color: #3c4242;
+    color: white;
+    -webkit-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
+}
+#personalize .card:hover{
+    -webkit-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+            transform: scale(1.04);
+    cursor: pointer;
+}
+
+#personalize .card p{
+    color: #929293;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card {
+    margin-right: 15px; /* Adjust the value as needed */
+    margin-bottom: 15px; /* Adjust the value as needed */
+  }
+
+  @media (max-width: 767px) {
+    /* Adjust the margin for smaller screens */
+    .card {
+      margin-right: 0;
+      margin-bottom: 15px; /* Keep the bottom margin for small screens */
+    }
+  }
+
+#personalize .container .row .col img{
+    width: 120px;
+    height: 120px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#personalize .box-title{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.box-img{
+    padding-left: 0;
+}
+
+/*why push*/
+#why-push{
+    margin-top: 120px;
+}
+
+#why-push h1{
+    font-size: 55px; /* Adjust font size as needed */
+    background: -webkit-gradient(linear, left top, right top, from(#911720), to(#dc292c));
+    background: -o-linear-gradient(left, #911720, #dc292c);
+    background: linear-gradient(to right, #911720, #dc292c); /* Define gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Hide original text color */
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+#why-push h4{
+    font-size: 30px;
+}
+
+#why-push h6{
+    font-size: 20px;
+    color: #929293;
+    border-bottom: 1px solid #686868; /* Adjust border style and color as needed */
+    margin-bottom: 20px; /* Add some space after each <h6> element */
+    padding-bottom: 20px; /* Add padding at the bottom to separate the line from the text */
+}
+
+
+/*join push*/
+
+#join-push{
+    margin-top: 120px;
+    padding-bottom: 80px;
+}
+
+#join-push h1{
+    font-size: 55px; /* Adjust font size as needed */
+    background: -webkit-gradient(linear, left top, right top, from(#911720), to(#dc292c));
+    background: -o-linear-gradient(left, #911720, #dc292c);
+    background: linear-gradient(to right, #911720, #dc292c); /* Define gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Hide original text color */
+    font-weight: bold;
+}
+
+#join-push .row{
+    margin-top: 40px;
+}
+
+#join-push .card-body{
+    margin-top: 20px;
+}
+
+#join-push .card-body a{
+    margin-top: 15px;
+}
+
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #dc292c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 18px;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #911720;
+  }
